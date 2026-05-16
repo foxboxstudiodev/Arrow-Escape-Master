@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arrow Escape Master</title>
+  <meta name="description" content="Tap arrows, clear the path, and solve relaxing escape puzzles." />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="badge">Coming to Google Play</div>
+      <h1>Arrow Escape Master</h1>
+      <p class="subtitle">Tap arrows, clear the path, and solve relaxing escape puzzles.</p>
+
+      <div class="actions">
+        <a class="button primary" href="game/">Play Web Demo</a>
+        <a class="button" href="privacy.html">Privacy Policy</a>
+        <a class="button" href="support.html">Support</a>
+      </div>
+
+      <div class="phone-preview" aria-label="Game preview placeholder">
+        <div class="board">
+          <div class="cell arrow up">↑</div>
+          <div class="cell"></div>
+          <div class="cell arrow right">→</div>
+          <div class="cell block"></div>
+          <div class="cell"></div>
+          <div class="cell arrow left">←</div>
+          <div class="cell arrow down">↓</div>
+          <div class="cell"></div>
+          <div class="cell block"></div>
+          <div class="cell"></div>
+          <div class="cell arrow up">↑</div>
+          <div class="cell"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-grid">
+      <article class="card">
+        <h2>Simple Puzzle Gameplay</h2>
+        <p>Each arrow moves only in its own direction. Choose the right order and clear the board.</p>
+      </article>
+
+      <article class="card">
+        <h2>Think Before You Tap</h2>
+        <p>Blocked arrows create mistakes. Plan the sequence and solve each level logically.</p>
+      </article>
+
+      <article class="card">
+        <h2>Offline Mobile Game</h2>
+        <p>The Android version is planned for Google Play with clean 2D puzzle gameplay.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> FoxBoxStudio Dev. Arrow Escape Master.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
