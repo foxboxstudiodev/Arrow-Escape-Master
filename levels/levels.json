@@ -1,0 +1,214 @@
+{
+  "version": "0.1.0",
+  "game": "Arrow Escape Master",
+  "boardDefaults": {
+    "width": 6,
+    "height": 8,
+    "cellSize": 96,
+    "boardStartX": 72,
+    "boardStartY": 220
+  },
+  "levels": [
+    {
+      "id": 1,
+      "name": "First Arrow",
+      "difficulty": "easy",
+      "board": { "width": 6, "height": 8 },
+      "mistakeLimit": 3,
+      "moveLimit": null,
+      "rewardCoins": 10,
+      "arrows": [
+        { "id": 1, "x": 2, "y": 4, "direction": "up", "color": "none", "locked": false, "keyId": null }
+      ],
+      "blockers": [],
+      "gates": [],
+      "portals": []
+    },
+    {
+      "id": 2,
+      "name": "Two Ways Out",
+      "difficulty": "easy",
+      "board": { "width": 6, "height": 8 },
+      "mistakeLimit": 3,
+      "moveLimit": null,
+      "rewardCoins": 10,
+      "arrows": [
+        { "id": 1, "x": 1, "y": 4, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 2, "x": 4, "y": 4, "direction": "right", "color": "none", "locked": false, "keyId": null }
+      ],
+      "blockers": [],
+      "gates": [],
+      "portals": []
+    },
+    {
+      "id": 3,
+      "name": "Simple Chain",
+      "difficulty": "easy",
+      "board": { "width": 6, "height": 8 },
+      "mistakeLimit": 3,
+      "moveLimit": null,
+      "rewardCoins": 10,
+      "arrows": [
+        { "id": 1, "x": 2, "y": 2, "direction": "up", "color": "none", "locked": false, "keyId": null },
+        { "id": 2, "x": 2, "y": 3, "direction": "up", "color": "none", "locked": false, "keyId": null },
+        { "id": 3, "x": 2, "y": 4, "direction": "up", "color": "none", "locked": false, "keyId": null }
+      ],
+      "blockers": [],
+      "gates": [],
+      "portals": []
+    },
+    {
+      "id": 4,
+      "name": "Right Chain",
+      "difficulty": "easy",
+      "board": { "width": 6, "height": 8 },
+      "mistakeLimit": 3,
+      "moveLimit": null,
+      "rewardCoins": 10,
+      "arrows": [
+        { "id": 1, "x": 4, "y": 3, "direction": "right", "color": "none", "locked": false, "keyId": null },
+        { "id": 2, "x": 3, "y": 3, "direction": "right", "color": "none", "locked": false, "keyId": null },
+        { "id": 3, "x": 2, "y": 3, "direction": "right", "color": "none", "locked": false, "keyId": null }
+      ],
+      "blockers": [],
+      "gates": [],
+      "portals": []
+    },
+    {
+      "id": 5,
+      "name": "Open Board",
+      "difficulty": "easy",
+      "board": { "width": 6, "height": 8 },
+      "mistakeLimit": 3,
+      "moveLimit": null,
+      "rewardCoins": 12,
+      "arrows": [
+        { "id": 1, "x": 1, "y": 2, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 2, "x": 4, "y": 2, "direction": "right", "color": "none", "locked": false, "keyId": null },
+        { "id": 3, "x": 2, "y": 4, "direction": "up", "color": "none", "locked": false, "keyId": null },
+        { "id": 4, "x": 3, "y": 5, "direction": "down", "color": "none", "locked": false, "keyId": null }
+      ],
+      "blockers": [
+        { "id": 1, "x": 0, "y": 0, "type": "stone" },
+        { "id": 2, "x": 5, "y": 7, "type": "stone" }
+      ],
+      "gates": [],
+      "portals": []
+    },
+    {
+      "id": 6,
+      "name": "Cross Order",
+      "difficulty": "easy",
+      "board": { "width": 6, "height": 8 },
+      "mistakeLimit": 3,
+      "moveLimit": null,
+      "rewardCoins": 12,
+      "arrows": [
+        { "id": 1, "x": 2, "y": 2, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 2, "x": 3, "y": 2, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 3, "x": 3, "y": 4, "direction": "up", "color": "none", "locked": false, "keyId": null },
+        { "id": 4, "x": 4, "y": 4, "direction": "right", "color": "none", "locked": false, "keyId": null }
+      ],
+      "blockers": [],
+      "gates": [],
+      "portals": []
+    },
+    {
+      "id": 7,
+      "name": "Twin Columns",
+      "difficulty": "normal",
+      "board": { "width": 6, "height": 8 },
+      "mistakeLimit": 3,
+      "moveLimit": null,
+      "rewardCoins": 14,
+      "arrows": [
+        { "id": 1, "x": 2, "y": 1, "direction": "up", "color": "none", "locked": false, "keyId": null },
+        { "id": 2, "x": 2, "y": 2, "direction": "up", "color": "none", "locked": false, "keyId": null },
+        { "id": 3, "x": 3, "y": 5, "direction": "down", "color": "none", "locked": false, "keyId": null },
+        { "id": 4, "x": 3, "y": 4, "direction": "down", "color": "none", "locked": false, "keyId": null },
+        { "id": 5, "x": 1, "y": 6, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 6, "x": 4, "y": 6, "direction": "right", "color": "none", "locked": false, "keyId": null }
+      ],
+      "blockers": [
+        { "id": 1, "x": 0, "y": 3, "type": "stone" },
+        { "id": 2, "x": 5, "y": 3, "type": "stone" }
+      ],
+      "gates": [],
+      "portals": []
+    },
+    {
+      "id": 8,
+      "name": "Split Rows",
+      "difficulty": "normal",
+      "board": { "width": 6, "height": 8 },
+      "mistakeLimit": 3,
+      "moveLimit": null,
+      "rewardCoins": 14,
+      "arrows": [
+        { "id": 1, "x": 1, "y": 1, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 2, "x": 2, "y": 1, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 3, "x": 4, "y": 1, "direction": "right", "color": "none", "locked": false, "keyId": null },
+        { "id": 4, "x": 3, "y": 1, "direction": "right", "color": "none", "locked": false, "keyId": null },
+        { "id": 5, "x": 2, "y": 4, "direction": "up", "color": "none", "locked": false, "keyId": null },
+        { "id": 6, "x": 3, "y": 4, "direction": "up", "color": "none", "locked": false, "keyId": null }
+      ],
+      "blockers": [
+        { "id": 1, "x": 0, "y": 7, "type": "wood" },
+        { "id": 2, "x": 5, "y": 7, "type": "wood" }
+      ],
+      "gates": [],
+      "portals": []
+    },
+    {
+      "id": 9,
+      "name": "Double Chain",
+      "difficulty": "normal",
+      "board": { "width": 6, "height": 8 },
+      "mistakeLimit": 3,
+      "moveLimit": null,
+      "rewardCoins": 16,
+      "arrows": [
+        { "id": 1, "x": 0, "y": 2, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 2, "x": 1, "y": 2, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 3, "x": 2, "y": 2, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 4, "x": 5, "y": 2, "direction": "right", "color": "none", "locked": false, "keyId": null },
+        { "id": 5, "x": 4, "y": 2, "direction": "right", "color": "none", "locked": false, "keyId": null },
+        { "id": 6, "x": 3, "y": 2, "direction": "right", "color": "none", "locked": false, "keyId": null },
+        { "id": 7, "x": 2, "y": 5, "direction": "up", "color": "none", "locked": false, "keyId": null },
+        { "id": 8, "x": 3, "y": 5, "direction": "up", "color": "none", "locked": false, "keyId": null }
+      ],
+      "blockers": [],
+      "gates": [],
+      "portals": []
+    },
+    {
+      "id": 10,
+      "name": "First Boss Order",
+      "difficulty": "normal",
+      "board": { "width": 6, "height": 8 },
+      "mistakeLimit": 3,
+      "moveLimit": null,
+      "rewardCoins": 20,
+      "arrows": [
+        { "id": 1, "x": 0, "y": 1, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 2, "x": 1, "y": 1, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 3, "x": 2, "y": 1, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 4, "x": 5, "y": 1, "direction": "right", "color": "none", "locked": false, "keyId": null },
+        { "id": 5, "x": 4, "y": 1, "direction": "right", "color": "none", "locked": false, "keyId": null },
+        { "id": 6, "x": 3, "y": 1, "direction": "right", "color": "none", "locked": false, "keyId": null },
+        { "id": 7, "x": 2, "y": 5, "direction": "up", "color": "none", "locked": false, "keyId": null },
+        { "id": 8, "x": 3, "y": 5, "direction": "up", "color": "none", "locked": false, "keyId": null },
+        { "id": 9, "x": 1, "y": 6, "direction": "left", "color": "none", "locked": false, "keyId": null },
+        { "id": 10, "x": 4, "y": 6, "direction": "right", "color": "none", "locked": false, "keyId": null }
+      ],
+      "blockers": [
+        { "id": 1, "x": 0, "y": 7, "type": "metal" },
+        { "id": 2, "x": 5, "y": 7, "type": "metal" },
+        { "id": 3, "x": 1, "y": 3, "type": "stone" },
+        { "id": 4, "x": 4, "y": 3, "type": "stone" }
+      ],
+      "gates": [],
+      "portals": []
+    }
+  ]
+}
